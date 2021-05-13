@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kodluyoruz", "Kodluyoruz\Ko
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreApp", "NetCoreApp\NetCoreApp.csproj", "{1B5605DF-2A24-4828-9CB7-5D1994ED7050}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Degiskenler", "Degiskenler\Degiskenler.csproj", "{093DB2A5-12CD-417F-8B75-7C347B09FEA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1B5605DF-2A24-4828-9CB7-5D1994ED7050}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B5605DF-2A24-4828-9CB7-5D1994ED7050}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B5605DF-2A24-4828-9CB7-5D1994ED7050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{093DB2A5-12CD-417F-8B75-7C347B09FEA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{093DB2A5-12CD-417F-8B75-7C347B09FEA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{093DB2A5-12CD-417F-8B75-7C347B09FEA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{093DB2A5-12CD-417F-8B75-7C347B09FEA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
