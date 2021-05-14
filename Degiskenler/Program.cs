@@ -10,6 +10,7 @@ namespace Degiskenler
     {
         static void Main(string[] args)
         {
+
             uint ui = 2;
             long l = 4;
             ulong ul = 4;
@@ -18,6 +19,8 @@ namespace Degiskenler
             char ch = 'a';
             float a = 12f;
             double b = 123d;
+            DateTime date = new DateTime();
+            a = i;// int tipindeki degeri float tipindeki degiskene atadık
 
 
         }
