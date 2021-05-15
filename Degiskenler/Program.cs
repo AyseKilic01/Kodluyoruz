@@ -21,6 +21,10 @@ namespace Degiskenler
             double b = 123d;
             DateTime date = new DateTime();
             a = i;// int tipindeki degeri float tipindeki degiskene atadık
+            byte c = 5;
+            long k = 2l;
+            k = c;
+
 
 
         }

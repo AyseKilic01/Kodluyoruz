@@ -5,9 +5,11 @@ VisualStudioVersion = 15.0.28307.1401
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kodluyoruz", "Kodluyoruz\Kodluyoruz.csproj", "{D1896286-8333-479E-BD28-6C68C92C0FD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreApp", "NetCoreApp\NetCoreApp.csproj", "{1B5605DF-2A24-4828-9CB7-5D1994ED7050}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreApp", "NetCoreApp\NetCoreApp.csproj", "{1B5605DF-2A24-4828-9CB7-5D1994ED7050}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Degiskenler", "Degiskenler\Degiskenler.csproj", "{093DB2A5-12CD-417F-8B75-7C347B09FEA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odev1", "Odev1\Odev1.csproj", "{2507B861-358B-4662-A894-EDE0C5736D26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{093DB2A5-12CD-417F-8B75-7C347B09FEA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{093DB2A5-12CD-417F-8B75-7C347B09FEA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{093DB2A5-12CD-417F-8B75-7C347B09FEA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2507B861-358B-4662-A894-EDE0C5736D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2507B861-358B-4662-A894-EDE0C5736D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2507B861-358B-4662-A894-EDE0C5736D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2507B861-358B-4662-A894-EDE0C5736D26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
