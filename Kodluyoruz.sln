@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Degiskenler", "Degiskenler\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odev1", "Odev1\Odev1.csproj", "{2507B861-358B-4662-A894-EDE0C5736D26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "generics_list", "generics_list\generics_list.csproj", "{5D8253C6-2D6B-4788-A5A3-D54521538C91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{2507B861-358B-4662-A894-EDE0C5736D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2507B861-358B-4662-A894-EDE0C5736D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2507B861-358B-4662-A894-EDE0C5736D26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D8253C6-2D6B-4788-A5A3-D54521538C91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8253C6-2D6B-4788-A5A3-D54521538C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8253C6-2D6B-4788-A5A3-D54521538C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8253C6-2D6B-4788-A5A3-D54521538C91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
