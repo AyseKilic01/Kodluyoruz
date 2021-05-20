@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulations", "Encapsulations\Encapsulations.csproj", "{FE6C1AEB-E9A7-4205-9CA4-261A2AC2EB16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statics", "Statics\Statics.csproj", "{3FC660A5-AF29-49C2-9958-D96916830CDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{FE6C1AEB-E9A7-4205-9CA4-261A2AC2EB16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE6C1AEB-E9A7-4205-9CA4-261A2AC2EB16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE6C1AEB-E9A7-4205-9CA4-261A2AC2EB16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FC660A5-AF29-49C2-9958-D96916830CDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC660A5-AF29-49C2-9958-D96916830CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC660A5-AF29-49C2-9958-D96916830CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC660A5-AF29-49C2-9958-D96916830CDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
