@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulations", "Encapsula
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statics", "Statics\Statics.csproj", "{3FC660A5-AF29-49C2-9958-D96916830CDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enums\Enums.csproj", "{CC0CF749-DCDF-41D3-A48D-9E224E9BFC18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{3FC660A5-AF29-49C2-9958-D96916830CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FC660A5-AF29-49C2-9958-D96916830CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FC660A5-AF29-49C2-9958-D96916830CDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC0CF749-DCDF-41D3-A48D-9E224E9BFC18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0CF749-DCDF-41D3-A48D-9E224E9BFC18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC0CF749-DCDF-41D3-A48D-9E224E9BFC18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC0CF749-DCDF-41D3-A48D-9E224E9BFC18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
