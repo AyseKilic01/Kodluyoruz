@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enums\Enums.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{84632E96-B05A-491A-8F7E-515381C5E279}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTelefonRehberi", "ConsoleTelefonRehberi\ConsoleTelefonRehberi.csproj", "{EDBFA6A7-B08F-423D-9CCC-472DD39468E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{84632E96-B05A-491A-8F7E-515381C5E279}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84632E96-B05A-491A-8F7E-515381C5E279}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84632E96-B05A-491A-8F7E-515381C5E279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDBFA6A7-B08F-423D-9CCC-472DD39468E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBFA6A7-B08F-423D-9CCC-472DD39468E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDBFA6A7-B08F-423D-9CCC-472DD39468E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDBFA6A7-B08F-423D-9CCC-472DD39468E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
