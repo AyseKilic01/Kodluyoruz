@@ -1,26 +1,21 @@
 ﻿using ConsoleTelefonRehberi.Concrete;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleTelefonRehberi
 {
     class Program
     {
-        static void Create()
-        {
-            UserManager user1 = new UserManager("Ayse", "Kilic", "054345895");
-            UserManager user2 = new UserManager("Fatma", "Kilic", "054345895");
-            UserManager user3 = new UserManager("Hayriye", "Kilic", "054345895");
-            UserManager user4 = new UserManager("Kazim", "Kilic", "054345895");
-            UserManager user5 = new UserManager("Sultan", "Kilic", "054345895");
+        #region objects
+       static UserManager userManagers = new UserManager();
+        #endregion
 
-        }
         static void Main(string[] args)
         {
-            Create();
+            Choose();
+            Console.ReadLine();
+        }
+        static void Choose()
+        {
             Console.WriteLine("Lütfen yapmak işlemi seçiniz : ");
             Console.WriteLine("********************************");
             Console.WriteLine("(1) Yeni Numara Kaydetmek");
@@ -46,49 +41,73 @@ namespace ConsoleTelefonRehberi
                 case 5:
                     Search();
                     break;
-               
             }
-            Console.ReadLine();
         }
-
       static void AddNew()
         {
             Console.Write("  Lütfen isim giriniz             : ");
-            string Name = Console.ReadLine();
+            string _name = Console.ReadLine();
             Console.Write("  Lütfen soyisim giriniz          : ");
-            string SurName = Console.ReadLine();
+            string _surName = Console.ReadLine();
             Console.Write("  Lütfen telefon no giriniz       : ");
-            string Phone = Console.ReadLine();
-            UserManager user = new UserManager();
-            user.Add(Name,SurName,Phone);
+            string _phone = Console.ReadLine();
+            Users user6 = new Users
+            {
+                Name = _name,
+                SurName = _surName,
+                Phone = _phone
+            };
+            userManagers.Add(user6);
+            Console.WriteLine("Kullanıcı Eklendi. ");
+            List();
+            CikisControl();
         }
         static void Delete()
         {
             Console.Write("Lütfen numarasını silmek istediğiniz kişinin adını ya da soyadını giriniz: ");
-            string Name = Console.ReadLine();
+            string deleteV = Console.ReadLine();
+            userManagers.Delete(deleteV);
+            CikisControl();
         }
         static void Update()
         {
             Console.Write("Lütfen numarasını güncellemek istediğiniz kişinin adını ya da soyadını giriniz: ");
-            string Name = Console.ReadLine();
+            string searchh = Console.ReadLine();
+            userManagers.Search(searchh);
+            Console.Write("Lütfen kişinin yeni adını giriniz: ");
+            string updateV = Console.ReadLine();
+            userManagers.Update(updateV,searchh);
         }
         public static void List()
         { 
             Console.WriteLine("Telefon Rehberi");
-            Console.WriteLine("********************************");
-            UserManager userManagers = new UserManager();
+            Console.WriteLine("********************************"); 
             userManagers.List();
+            CikisControl();
 
         }
         static void Search()
         {
-            Console.WriteLine("Telefon Rehberi");
-            Console.WriteLine("********************************");
+            Console.Write("Lütfen numarasını aramak istediğiniz kişinin adını ya da soyadını giriniz: ");
+            string searchh = Console.ReadLine(); 
+            userManagers.Search(searchh);
+            CikisControl();
+
         }
-        static void Add()
+        static void CikisControl()
         {
-         
-          
+            Console.WriteLine("Çıkış yapmak ister misiniz ?");
+            Console.WriteLine("Çıkış için 1 e basın : " + "   " + " Devam etmek için 2 e basın");
+           int control = Convert.ToInt32(Console.ReadLine());
+            if(control == 1)
+            {
+                Environment.Exit(0);
+            }
+            else
+            {
+                Console.Clear();
+                Choose();
+            }
         }
     }
 }
