@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTelefonRehberi", "ConsoleTelefonRehberi\ConsoleTelefonRehberi.csproj", "{EDBFA6A7-B08F-423D-9CCC-472DD39468E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp", "ToDoApp\ToDoApp.csproj", "{4B34A222-B6AC-437C-B446-8B539AC5F78A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{EDBFA6A7-B08F-423D-9CCC-472DD39468E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDBFA6A7-B08F-423D-9CCC-472DD39468E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDBFA6A7-B08F-423D-9CCC-472DD39468E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B34A222-B6AC-437C-B446-8B539AC5F78A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B34A222-B6AC-437C-B446-8B539AC5F78A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B34A222-B6AC-437C-B446-8B539AC5F78A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B34A222-B6AC-437C-B446-8B539AC5F78A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
