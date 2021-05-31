@@ -24,7 +24,7 @@ namespace ToDoApp.Manage
             switch (choice)
             {
                 case 1:
-                    AddNew();
+                   ListBoard();
                     break;
                 case 2:
                     Delete();
@@ -53,9 +53,29 @@ namespace ToDoApp.Manage
             throw new NotImplementedException();
         }
 
-        private static void AddNew()
+        private static void ListBoard()
         {
-            throw new NotImplementedException();
+            ToDo();
+            inProgress();
+            Done();
+        }
+
+        private static void ToDo()
+        {
+            Console.WriteLine(" TODO Line");
+            Console.WriteLine(" * *********************** *");
+        }
+
+        private static void inProgress()
+        {
+            Console.WriteLine(" InProgress Line");
+            Console.WriteLine(" * *********************** *");
+        }
+
+        private static void Done()
+        {
+            Console.WriteLine(" Done Line");
+            Console.WriteLine(" * *********************** *");
         }
     }
 }
